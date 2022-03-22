@@ -22,6 +22,7 @@ public class User {
     private String username;
     private String roles;
     private boolean isActive;
+    private boolean isAccountNonExpired;
     private boolean isAccountNonLocked;
     private boolean isCredentialsNonExpired;
     private boolean isEnabled;
